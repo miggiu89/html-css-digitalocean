@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- FontAwesome CSS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <!-- Style CSS -->
+  <link rel="stylesheet" href="css/style.css">
+  <title>Digital Ocean</title>
+</head>
+<body>
+  <!-- menu e jumbotron -->
+  <header>
+    <!-- navbar -->
+    <nav id="my_nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-3">
+            <a href="#">
+              <img id="nav_logo" src="img/logo_header.webp" alt="Logo Digital Ocean">
+            </a>
+          </div>
+          <div class="col-xs-5">
+            <ul class="nav_list_left visible-lg">
+              <li><a href="#">Products<i class="fas fa-angle-down"></i></a></li>
+              <li><a href="#">Customers</a></li>
+              <li><a href="#">Community<i class="fas fa-angle-down"></i></a></li>
+              <li><a href="#">Pricing</a></li>
+            </ul>
+          </div>
+          <div class="col-xs-4 text-right">
+            <ul class="nav_list_right visible-lg">
+              <li><a href="#">Docs</a></li>
+              <li><a href="#">Support<i class="fas fa-angle-down"></i></a></li>
+              <li><a href="#">Login</a></li>
+              <li><a class="btn_signup" href="#">Sign Up</a></li>
+            </ul>
+            <a href="#" class="hidden-lg" id="hambuger_icon">
+              <i class="fas fa-bars"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- /navbar -->
+
+    <!-- jumbotron -->
+    <div id="my_jumbotron">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-7">
+            <h1>The simplest cloud platform for developers &amp; teams</h1>
+            <p class="jumbotron_description">Deploy, manage, and scale cloud applications faster and more efficiently on DigitalOcean. We make managing infrastructure easy for teams and businesses, wheter you're running one virtual machine or ten thousand.</p>
+          </div>
+          <div class="col-xs-12 col-md-5">
+            <div class="my_jumbotron_box text-center">
+              <h2>Deploy your apps in seconds.</h2>
+              <a id="get_started" href="#">Get started now</a>
+              <form class="">
+                <input type="email" class="my_form" placeholder="Email" autofocus>
+                <input type="password" class="my_form" placeholder="Password">
+                <a href="#" class="btn_jumbotron btn_account">Create your account</a>
+                <a href="#" class="btn_jumbotron btn_google">
+                  <img id="google_icon" src="img/google_icon.webp" alt="Icona Google">
+                  Sign up with Google
+                </a>
+              </form>
+              <p>By signing up you agree to the <a href="#">Terms of service</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- /jumbotron -->
+  </header>
+  <!-- /menu e jumbotron -->
+
+  <!-- corpo del sito -->
+  <main>
+    <!-- sezione customers -->
+    <section id="customers" class="text-center">
+      <h4>Innovate businesses trust Digitalocean</h4>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-md-2">
+            <div class="customer_item">
+              <img src="img/docker_logo.svg" alt="Logo Docker">
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-2">
+            <div class="customer_item">
+              <img src="img/gitlab_logo.svg" alt="Logo Docker">
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-2">
+            <div class="customer_item">
+              <img src="img/slack_logo.svg" alt="Logo Docker">
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-2">
+            <div class="customer_item">
+              <img src="img/hashicorp_logo.svg" alt="Logo Docker">
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-2">
+            <div class="customer_item">
+              <img src="img/wework_logo.svg" alt="Logo Docker">
+            </div>
+          </div>
+          <div class="col-xs-6 col-md-2">
+            <div class="customer_item">
+              <img src="img/splunk_logo.svg" alt="Logo Docker">
+            </div>
+          </div>
+        </div>
+      </div>
+      <a href="#">View customer stories &gt;</a>
+    </section>
+    <!-- /sezione customers -->
+
+    <!-- sezione deploy -->
+    <section id="deploy">
+      <div class="container">
+        <h3>Deploy and scale seamlessly</h3>
+        <p class="description text-center">Our optimized configuration process saves your team time when running and scaling distributed applications, AI &amp; machine learning workloads, hosted services, client websites, or CI/CD environments.</p>
+        <div class="row">
+          <div class="col-xs-12 col-md-1 col-md-offset-1">
+            <ul>
+              <li>Deploy</li>
+              <li>Manage</li>
+              <li>Secure</li>
+              <li>Scale</li>
+              <li>Monitor</li>
+            </ul>
+          </div>
+          <div class="col-xs-12 col-md-7 col-md-offset-2">
+            <div class="row">
+              <div class="col-xs-12 col-md-6 deploy_item">
+                <img src="img/deploy_icon_01.svg" alt="Icona Deploy">
+                <h5 class="blue_h5">Cluster deployments</h5>
+                <p class="small_description">Provision multiple Droplets (virtual machines) in seconds with our control panel, CLI, or directly againsta our API.</p>
+              </div>
+              <div class="col-xs-12 col-md-6 deploy_item">
+                <img src="img/deploy_icon_02.svg" alt="Icona Deploy">
+                <h5 class="blue_h5">Optimizzed compute types</h5>
+                <p class="small_description">Get the compute resources you nedd with Standard or Optimized Droplets.</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-xs-12 col-md-6 deploy_item">
+                <img src="img/deploy_icon_03.svg" alt="Icona Deploy">
+                <h5 class="blue_h5">One-click apps</h5>
+                <p class="small_description">Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</p>
+              </div>
+              <div class="col-xs-12 col-md-6 deploy_item">
+                <img src="img/deploy_icon_04.svg" alt="Icona Deploy">
+                <h5 class="blue_h5">Global availability</h5>
+                <p class="small_description">Deply to any of our data center regions around the world.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /sezione deploy -->
+
+    <!-- sezione carousel 1 -->
+    <section id="carousel-one">
+      <div class="container">
+        <h3>Designed for developers</h3>
+        <p class="description text-center">Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
+        <div class="row">
+          <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 carousel_item text-center">
+            <img src="img/carousel_img.webp" alt="Immagine sviluppatori">
+          </div>
+          <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 text-center">
+            <p class="carousel_description text-center">Create compute servers in 55 seconds or less.</p>
+            <ul class="carousel_list">
+              <li><i class="fas fa-circle"></i></li>
+              <li><i class="far fa-circle"></i></li>
+              <li><i class="far fa-circle"></i></li>
+              <li><i class="far fa-circle"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /sezione carousel 1 -->
+
+    <!-- sezione features -->
+    <section id="features">
+      <div class="container">
+        <h3>The features your business needs</h3>
+        <div class="row">
+          <div class="col-xs-12 col-md-4 features_item">
+            <img src="img/business_icon_01.svg" alt="Icona Features">
+            <h5 class="blue_h5">Predictable pricing</h5>
+            <p class="small_description">Leave complex pricing structures behind. Always know what you'll pay per month with a flat, industry-leading pricing structure.</p>
+            <a href="#">Pricing &gt;</a>
+          </div>
+          <div class="col-xs-12 col-md-4 features_item">
+            <img src="img/business_icon_02.svg" alt="Icona Features">
+            <h5 class="blue_h5">World-class service</h5>
+            <p class="small_description">Free round-the-clock technical support for all customers. You'll feel the love.</p>
+            <a href="#">Support &gt;</a>
+          </div>
+          <div class="col-xs-12 col-md-4 features_item">
+            <img src="img/business_icon_03.svg" alt="Icona Features">
+            <h5 class="blue_h5">Reliable platform</h5>
+            <p class="small_description">More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for all serivices.</p>
+            <a href="#">Security &gt;</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /sezione features -->
+
+    <!-- sezione service -->
+    <section id="service">
+      <div class="container">
+        <h3>Service your customers around the world from 12 regions.</h3>
+        <div class="row">
+          <!-- data center sinistra -->
+            <div class="col-xs-12 col-lg-6 data_center_left">
+              <div class="row data_center_item">
+                <div class="col-xs-2 server_number">AMS1</div>
+                <div class="col-xs-6 server_name">Amsterdam, Netherlands</div>
+                <div class="col-xs-4 speed_test text-right"><a href="#">Test Speed &gt;</a></div>
+              </div>
+              <div class="row data_center_item">
+                <div class="col-xs-2 server_number">AMS2</div>
+                <div class="col-xs-6 server_name">Amsterdam, Netherlands</div>
+                <div class="col-xs-4 speed_test text-right"><a href="#">Test Speed &gt;</a></div>
+              </div>
+              <div class="row data_center_item">
+                <div class="col-xs-2 server_number">BLR1</div>
+                <div class="col-xs-6 server_name">Bangalore, India</div>
+                <div class="col-xs-4 speed_test text-right"><a href="#">Test Speed &gt;</a></div>
+              </div>
+              <div class="row data_center_item">
+                <div class="col-xs-2 server_number">FRA1</div>
+                <div class="col-xs-6 server_name">Frankfurt, German</div>
+                <div class="col-xs-4 speed_test text-right"><a href="#">Test Speed &gt;</a></div>
+              </div>
+              <div class="row data_center_item">
+                <div class="col-xs-2 server_number">LON1</div>
+                <div class="col-xs-6 server_name">London, UK</div>
+                <div class="col-xs-4 speed_test text-right"><a href="#">Test Speed &gt;</a></div>
+              </div>
+              <div class="row data_center_item">
+                <div class="col-xs-2 server_number">NYC1</div>
+                <div class="col-xs-6 server_name">New York, USA</div>
+                <div class="col-xs-4 speed_test text-right"><a href="#">Test Speed &gt;</a></div>
+              </div>
+            </div>
+            <!-- data center sinistra -->
+
+            <!-- data center destra -->
+            <div class="col-xs-12 col-lg-6 data_center_right">
+              <div class="row data_center_item">
+                <div class="col-xs-2 server_number">AMS3</div>
+                <div class="col-xs-6 server_name">Amsterdam, Netherlands</div>
+                <div class="col-xs-4 speed_test text-right"><a href="#">Test Speed &gt;</a></div>
+              </div>
+              <div class="row data_center_item">
+                <div class="col-xs-2 server_number">AMS4</div>
+                <div class="col-xs-6 server_name">Amsterdam, Netherlands</div>
+                <div class="col-xs-4 speed_test text-right"><a href="#">Test Speed &gt;</a></div>
+              </div>
+              <div class="row data_center_item">
+                <div class="col-xs-2 server_number">BLR2</div>
+                <div class="col-xs-6 server_name">Bangalore, India</div>
+                <div class="col-xs-4 speed_test text-right"><a href="#">Test Speed &gt;</a></div>
+              </div>
+              <div class="row data_center_item">
+                <div class="col-xs-2 server_number">FRA2</div>
+                <div class="col-xs-6 server_name">Frankfurt, German</div>
+                <div class="col-xs-4 speed_test text-right"><a href="#">Test Speed &gt;</a></div>
+              </div>
+              <div class="row data_center_item">
+                <div class="col-xs-2 server_number">SGP1</div>
+                <div class="col-xs-6 server_name">Singapore</div>
+                <div class="col-xs-4 speed_test text-right"><a href="#">Test Speed &gt;</a></div>
+              </div>
+              <div class="row data_center_item">
+                <div class="col-xs-2 server_number">SFO</div>
+                <div class="col-xs-6 server_name">San Francisco, CA</div>
+                <div class="col-xs-4 speed_test text-right"><a href="#">Test Speed &gt;</a></div>
+              </div>
+            </div>
+            <!-- data center destra -->
+        </div>
+      </div>
+    </section>
+    <!-- /sezione service -->
+
+    <!-- sezione carousel 2 -->
+    <section id="carousel-two">
+      <div class="container">
+        <h3>Designed for developers</h3>
+        <div class="row">
+          <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 carousel_item text-center">
+            <img src="img/rockerbox_logo.webp" alt="Logo Rockerbox">
+            <p class="description">"We have been able to make scaling the technical infrastructure of our business cost effective and efficient."</p>
+            <h5 class="blue_h5">Rick O'Toole</h5>
+            <p class="carousel_description">Co-founder and CTO</p>
+            <a href="#">Read story &gt;</a>
+          </div>
+          <div class="col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 text-center">
+            <ul class="carousel_list">
+              <li><i class="fas fa-circle"></i></li>
+              <li><i class="far fa-circle"></i></li>
+              <li><i class="far fa-circle"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- /sezione carousel 2 -->
+
+    <!-- sezione get started -->
+    <section id="get-started" class="text-center">
+      <div class="container">
+        <h3>Get started now.</h3>
+        <a class="btn_white" href="#">Create your account</a>
+      </div>
+    </section>
+    <!-- /sezione get started -->
+  </main>
+  <!-- /corpo del sito -->
+
+  <!-- footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12 col-lg-4">
+          <a href="#"><img src="img/logo_footer.svg" alt="Logo Digital Ocean"></a>
+          <p class="footer_copy">&copy; DigitalOcean, LLC. All rights reserved.</p>
+          <p class="footer_made">Proudly made in NY</p>
+          <ul class="social_list">
+            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2">
+          <h6 class="white_h6">Company</h6>
+          <ul class="footer_list">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Leadership</a></li>
+            <li><a href="#">Link</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Careers</a></li>
+            <li><a href="#">Partner Network</a></li>
+            <li><a href="#">Referral Program</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Press</a></li>
+            <li><a href="#">Legal &amp; Security</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2">
+          <h6 class="white_h6">Products</h6>
+          <ul class="footer_list">
+            <li><a href="#">Droplets</a></li>
+            <li><a href="#">Spaces</a></li>
+            <li><a href="#">Kubernetes</a></li>
+            <li><a href="#">Load Balancer</a></li>
+            <li><a href="#">Block Storage</a></li>
+            <li><a href="#">Tools &amp; Integrations</a></li>
+            <li><a href="#">One-Click Apps</a></li>
+            <li><a href="#">API</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Documentation</a></li>
+            <li><a href="#">Release Notes</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2">
+          <h6 class="white_h6">Community</h6>
+          <ul class="footer_list">
+            <li><a href="#">Tutorials</a></li>
+            <li><a href="#">Meetups</a></li>
+            <li><a href="#">Q&amp;A</a></li>
+            <li><a href="#">Write for Donations</a></li>
+            <li><a href="#">Droplelts for Demos</a></li>
+            <li><a href="#">Hatch</a></li>
+            <li><a href="#">Shop Swag</a></li>
+            <li><a href="#">Research Program</a></li>
+            <li><a href="#">Currents Research</a></li>
+            <li><a href="#">Open Source</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-12 col-md-6 col-lg-2">
+          <h6 class="white_h6">Support</h6>
+          <ul class="footer_list">
+            <li><a href="#">Contact Support</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Network Status</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- /footer -->
+
+
+</body>
+</html>

@@ -1,0 +1,319 @@
+/* START UTILITIES */
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+
+
+h3 {
+  color: #031b4e;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.jumbotron_description {
+  color: #d6d6d6;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.description {
+  color: #485583;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+.small_description {
+  font-size: 18px;
+  color: #485583;
+  line-height: 1.5;
+}
+
+.carousel_description {
+  margin: 15px 0;
+  color: #031b4e;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.carousel_list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.carousel_list li {
+  display: inline-block;
+  color: #006aff;
+  margin-right: 5px;
+}
+
+.carousel_list li i {
+  font-size: 12px;
+}
+
+.carousel_list li:last-child {
+  margin-right: 0;
+}
+
+.blue_h5 {
+  margin: 10px 0 10px;
+  font-size: 20px;
+  color: #031b4e;
+  font-weight: 700;
+}
+
+.white_h6 {
+  color: white;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 2.2;
+}
+
+.social_list {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.social_list li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social_list a {
+  display: inline-block;
+  color: #485583;
+}
+
+.social_list a:last-child {
+  margin-right: 0;
+}
+
+.social_list a:hover {
+  color: #ffffff;
+}
+
+.social_list i {
+  font-size: 24px;
+}
+
+.footer_list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer_list a {
+  color: #b6b6b6;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 2.2;
+}
+
+.footer_list a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+/* END UTILITIES */
+
+/* START HEADER */
+
+/* navbar */
+#my_nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 3;
+  height: 65px;
+  line-height: 65px;
+  background-color: #ffffff;
+  box-shadow: rgba(3,27,78,0.1) 0px 2px 4px;
+}
+
+#nav_logo {
+  width: 170px;
+}
+
+.nav_list_left,
+.nav_list_right {
+  list-style: none;
+  vertical-align: middle;
+}
+
+.nav_list_left li,
+.nav_list_right li {
+  display: inline-block;
+}
+
+.nav_list_left a {
+  display: inline-block;
+  color: black;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.nav_list_left i,
+.nav_list_right i {
+  margin-left: 5px;
+}
+
+.nav_list_right a {
+  display: inline-block;
+  color: black;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.nav_list_left a:hover,
+.nav_list_right a:hover {
+  text-decoration: none;
+  color: #006aff;
+}
+
+.nav_list_right .btn_signup {
+  display: inline;
+  color: #006aff;
+  border: 1px solid #006aff;
+  padding: 10px 16px;
+  border-radius: 5px;
+}
+
+.nav_list_right .btn_signup:hover {
+  color: #ffffff;
+  background-color: #006aff;
+}
+
+#hambuger_icon {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#hambuger_icon i {
+  color: #006aff;
+  font-size: 20px;
+}
+/* navbar */
+
+/* jumbotron */
+#my_jumbotron {
+  background-image: url("../img/jumbotron.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  margin-top: 65px;
+  padding: 50px 0;
+}
+
+#my_jumbotron h1 {
+  color: #ffffff;
+  font-size: 60px;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+
+
+.my_jumbotron_box {
+  background-color: #ffffff;
+  padding: 30px 10px;
+  border-radius: 5px;
+}
+
+.my_jumbotron_box h2 {
+  margin-bottom: 5px;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.my_jumbotron_box p {
+  color: #000000;
+  font-size: 12px;
+}
+
+.my_jumbotron_box p > a {
+  color: #006aff;
+  text-decoration: underline;
+}
+
+.my_jumbotron_box p > a:hover {
+  text-decoration: none;
+}
+
+.my_jumbotron_box #get_started {
+  color: #006aff;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.my_jumbotron_box .my_form {
+  display: block;
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #555;
+  background-color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.my_jumbotron_box .my_form:focus {
+  border-color: #006aff;
+  outline:#006aff;
+}
+
+.btn_jumbotron {
+  display: block;
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.btn_account {
+  color: #ffffff;
+  background-color: #579AFF;
+}
+
+.btn_account:hover {
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #006aff;
+}
+
+.btn_google {
+  position: relative;
+  color: #555;;
+  background-color: #ffffff;
+  box-shadow: 2px 2px rgba(0,0,0,.1);
+}
+
+.btn_google:hover {
+  color:#006aff;
+}
+
+#google_icon {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  height: 100%;
+}
+/* /jumbotron */
+
+/* END HEADER */
