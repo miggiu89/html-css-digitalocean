@@ -57,6 +57,11 @@ ul {list-style: none;}
   color: white;
 }
 
+.ms_bg_blue {
+  background-color: blue;
+  color: white;
+}
+
 
 /* header */
 
@@ -161,7 +166,10 @@ div [class="ms_icon_"] {
 
 .ms_box_service {
   margin-top: 15px;
-  background-color: blue;
-  color: white;
+}
+
+.ms_btn_white{
+  background-color: white;
+  color: blue;
 }
 /* footer */
