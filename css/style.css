@@ -11,6 +11,10 @@ body {
   margin-top: 80px;
 }
 
+h1, h2, h3, h4, h5 {
+  font-weight: 700;
+}
+
 
 
 
@@ -62,6 +66,14 @@ ul {list-style: none;}
   color: white;
 }
 
+.ms_p_t {
+  padding-top: 10px;
+}
+
+.ms_m_t {
+  margin-top: 5px;
+}
+
 
 /* header */
 
@@ -103,14 +115,16 @@ ul {list-style: none;}
 
 /* main */
 
+
 .ms_brand_inline {
-  height: 150px;
+  height: 120px;
+  width: 120px;
 
 }
 
 .ms_brand_inline img {
   height: 100%;
-  max-width: 100%;
+  width: 100%;
 }
 
 .ms_element {
@@ -149,6 +163,16 @@ div [class="ms_icon_"] {
   margin-top: 60px;
   color: lightblue;
 }
+
+#deploy ul {
+  border-left:1px solid grey;
+}
+
+#deploy ul li {
+  padding: 15px;
+}
+
+
 
 .business_icon {
 }
